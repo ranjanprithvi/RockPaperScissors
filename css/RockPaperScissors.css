@@ -1,0 +1,43 @@
+div.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  margin: 50px 0;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+}
+.computerSelection {
+  border: 2px solid black;
+  background-color: gray;
+}
+.playerSelection {
+  border: 2px solid dodgerblue;
+}
+
+img#computerImage,
+img.selectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+img#computerImage {
+  display: none;
+}
+
+div.player {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#result {
+  margin: 0 0 20px 0;
+  text-align: center;
+  border: none;
+  resize: none;
+}

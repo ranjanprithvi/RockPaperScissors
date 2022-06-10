@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <link rel="icon" type=“image/x-icon”
+    href="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"
+    />
+    <link rel="stylesheet" href="css/RockPaperScissors.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="computerSelection box">
+        <img id="computerImage" src="images/rock.jpg" alt="" />
+      </div>
+      <div class="player">
+        <a href="#" id="rock" class="playerSelection box">
+          <img src="images/rock.jpg" alt="" class="selectImage" />
+        </a>
+        <a href="#" id="paper" class="playerSelection box">
+          <img src="images/paper.jpg" alt="" class="selectImage" />
+        </a>
+        <a href="#" id="scissors" class="playerSelection box">
+          <img src="images/scissors.jpg" alt="" class="selectImage" />
+        </a>
+      </div>
+      <textarea id="result" cols="30" rows="2" readonly></textarea>
+      <button id="reset">reset</button>
+    </div>
+
+    <script type="text/javascript" src="Scripts/RockPaperScissors.js"></script>
+  </body>
+</html>
